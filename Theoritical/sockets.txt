@@ -1,0 +1,4 @@
+port: internal address reserved for different applications. can be tcp or udp. depending on tcp or udp protocol at transport layer.
+a socket combines ip address and tcp/udp port and forms one end point of a connection.
+socket is api used for all networking purposes. it allows apps to connect to the network. have port numbers which allows different apps to run on the same host.
+when server is one and multiple clients are connecting simultaneously, the server creates threads for different connections. these threads are small processes may be dedicated to each connection.

@@ -1,0 +1,11 @@
+delete removes the content of the memory pointed to by the pointer on which we call delete.
+
+
+
+if ever have to find a combination of number, try aligning the numbers in an order..
+
+
+if a node is right child predecessor is parent
+and if left child successor is parent
+
+smaller[i] and greater[i] for element[i] and then showing that it was monotonous and all.

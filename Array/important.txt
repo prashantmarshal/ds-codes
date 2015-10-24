@@ -1,0 +1,7 @@
+http://www.geeksforgeeks.org/largest-subarray-with-equal-number-of-0s-and-1s/
+http://stackoverflow.com/questions/16388930/how-to-find-the-subarray-that-has-sum-closest-to-zero-or-a-certain-value-t-in-o
+http://www.geeksforgeeks.org/minimum-length-subarray-sum-greater-given-value/
+http://www.geeksforgeeks.org/find-if-there-is-a-subarray-with-0-sum/
+https://books.google.co.in/books?id=VU2tBwAAQBAJ&pg=PA52&lpg=PA52&dq=subarray+which+has+sum+closest+to+zero&source=bl&ots=kCN3-73sio&sig=_DWjR4Os7nkfRTbGBU167ln7gIk&hl=en&sa=X&ved=0CFcQ6AEwCGoVChMIq6HYnfLTxwIVUY6OCh3WPAik#v=onepage&q=subarray%20which%20has%20sum%20closest%20to%20zero&f=false
+http://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
+http://www.geeksforgeeks.org/find-the-element-that-appears-once/

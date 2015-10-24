@@ -1,0 +1,23 @@
+
+1. Virtual keyword basically acts according to the memory allocated type, the object passed. 
+	In other words, virtual functions are resolved late, at runtime.
+
+	Constructor sets the vptr for every object to its corressponding vtable.
+
+2. for any type T, “pointer to T,” “pointer to const T,” and “pointer to volatile T” are considered distinct parameter types. but 
+
+3. C++ allows functions to be overloaded on the basis of const-ness of parameters only if the const parameter is a reference or a pointer. That is why the program 1 failed in compilation, but the program 2 worked fine. This rule actually makes sense. In program 1, the parameter ‘i’ is passed by value, so ‘i’ in fun() is a copy of ‘i’ in main(). Hence fun() cannot modify ‘i’ of main(). Therefore, it doesn’t matter whether ‘i’ is received as a const parameter or normal parameter. When we pass by reference or pointer, we can modify the value referred or pointed, so we can have two versions of a function, one which can modify the referred or pointed value, other which can not.
+
+4. Inheritance and overloading : http://www.geeksforgeeks.org/does-overloading-work-with-inheritance/
+	Overloading doesn't work across scopes.
+
+5. main can be overloaded only if functions are class members.
+
+6. When the inline function is called whole code of the inline function gets inserted or substituted at the point of inline function call. This substitution is performed by the C++ compiler at compile time. Inline function may increase efficiency if it is small. Too much inlining can also reduce your instruction cache hit rate, thus reducing the speed of instruction fetch from that of cache memory to that of primary memory. Inline functions might cause thrashing because inlining might increase size of the binary executable file. Thrashing in memory causes performance of computer to degrade.
+
+7. macro - #define str(x) #x 	--> cout << str(test);
+
+8. #define glue(a,b) a ## b 		glue(c,out) << "test"; 		--> cout << "test"
+
+const
+volatile

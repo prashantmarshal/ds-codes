@@ -1,0 +1,2 @@
+wrapping data members and methods together as a single unit.
+data hiding by declaring variables as private.

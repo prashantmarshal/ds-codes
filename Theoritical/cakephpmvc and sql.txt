@@ -1,0 +1,13 @@
+
+software architecture pattern, categorizes codes with same functionalities into same folder structure.
+promote code usability, implement separation and categorize things which essentially perform similar kind of work.
+
+model gives data, interacts with database.
+controller basically handles all the interactions/actions of a user, performs communication between user and model.
+
+a piece of code can be made very usable. for example a model class (which interacts with hte database) can be used by various controller classes.
+
+separating user interface (views) with business logic(controller and model), so if needed to change one thing, doesn't affect the other.
+
+integration with libraries is also easier; like separate directories for placing js files, and it will automatically include them all.
+inbuilt redirection techniques which are very efficient and correct as compared to how it would be in case we ourselves made the folder structure.

@@ -1,0 +1,7 @@
+message broker
+has a queue of its own
+fire and forget kind of thing. pushses thigns into the queue and forgets about it. something else later deals with the stuff.
+asynchronously process data.
+
+can speak any language. any thing that talks AMQP.
+only have to wait for the message to be queued and not necessarily processed.

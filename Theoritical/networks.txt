@@ -1,0 +1,1 @@
+NAT is used for communication between a computer in a private network to a server. router and NAT does the work. reference: coursera computer network course.
